@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="container">
@@ -24,32 +24,38 @@
                 <h2>A mock-up portfolio</h2>
             </div>
         </header>
-        <hr>
-        <section class="row "> <!--hero image-->
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <hr>
+            </div>
+        </div>
+        <section class="row"> <!--hero image-->
             <div class="col-md-12">
                 <img class="hero" src="images/hero_480.png" sizes="100vw" srcset="images/hero_480.png 480w, images/hero_800.png 800w, images/hero_1200.png 1200w, images/hero_1600.png 1600w" alt="hero image">
             </div>
         </section>
-        <section class="row"> <!--Featured Work-->
-            <h3 class="featuredWork">Featured Work</h3>
-            <article class="col-xs-6 col-sm-4 imgcontainer"> <!--Project 1-->
-                <img src="images/project1_500.png" sizes="(max-width: 768px) 50vw, 33.3vw"
-                srcset="images/project1_500.png 500w, images/project1_800.png 800w" alt="Appify Project Image">
-                <h4 class="text-center">Appify</h4>
-                <p class="text-center">https://github.com/udacity/Appify</p>
-            </article>
-            <article class="col-xs-6 col-sm-4 imgcontainer"> <!--Project 2-->
-                <img src="images/project2_500.png" sizes="(max-width: 768px) 50vw, 33.3vw"
-                srcset="images/project2_500.png 500w, images/project2_800.png 800w" alt="Sunflower Project Image">
-                <h4 class="text-center">Sunflower</h4>
-                <p class="text-center">https://github.com/udacity/Sunflower</p>
-            </article>
-            <article class="col-xs-6 col-sm-4 imgcontainer"> <!--Project 3-->
-                <img src="images/project3_500.png" sizes="(max-width: 768px) 50vw, 33.3vw"
-                srcset="images/project3_500.png 500w, images/project3_800.png 800w" alt="Bokeh Project Image">
-                <h4 class="text-center">Bokeh</h4>
-                <p class="text-center">https://github.com/udacity/Bokeh</p>
-            </article>
+        <section class="row featured-work"> <!--Featured Work-->
+            <div class="col-md-12">
+                <h3>Featured Work</h3>
+                <article class="col-xs-6 col-sm-4 col-lg-4 imgcontainer"> <!--Project 1-->
+                    <img src="images/project1_500.png" sizes="(max-width: 768px) 50vw, 33.3vw"
+                    srcset="images/project1_500.png 500w, images/project1_800.png 800w" alt="Appify Project Image">
+                    <h4 class="text-center">Appify</h4>
+                    <p class="text-center">https://github.com/udacity/Appify</p>
+                </article>
+                <article class="col-xs-6 col-sm-4 imgcontainer"> <!--Project 2-->
+                    <img src="images/project2_500.png" sizes="(max-width: 768px) 50vw, 33.3vw"
+                    srcset="images/project2_500.png 500w, images/project2_800.png 800w" alt="Sunflower Project Image">
+                    <h4 class="text-center">Sunflower</h4>
+                    <p class="text-center">https://github.com/udacity/Sunflower</p>
+                </article>
+                <article class="col-xs-6 col-sm-4 imgcontainer"> <!--Project 3-->
+                    <img src="images/project3_500.png" sizes="(max-width: 768px) 50vw, 33.3vw"
+                    srcset="images/project3_500.png 500w, images/project3_800.png 800w" alt="Bokeh Project Image">
+                    <h4 class="text-center">Bokeh</h4>
+                    <p class="text-center">https://github.com/udacity/Bokeh</p>
+                </article>
+            </div>
         </section>
     </div>
 </body>

@@ -1,25 +1,25 @@
-*{
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
-body{
+body {
     padding-bottom: 50px;
 }
 
-.container{
-    max-width:1200px;
-    height:100%;
+.container {
+    max-width: 1200px;
+    height: 100%;
 }
 
 hr {
     border: none;
     height: 2px;
-    color: #89C0DA;
-    background-color: #89C0DA;
+    color: #89c0da;
+    background-color: #89c0da;
 }
 
 img {
@@ -27,77 +27,75 @@ img {
 }
 
 .row {
-    padding:0;
+    padding: 0;
 }
 
-.featuredWork {
-    margin-left: 15px;
+.imgcontainer {
+    padding: 0;
 }
 
-.imgcontainer p{
-    padding:0;
-    max-width:100%;
+.imgcontainer p {
     overflow: hidden;
-
 }
 
 .imgcontainer img {
     max-width: 100%;
+    padding: 5px;
 }
 
-.logo{
-    width:100px;
+.logo {
+    width: 100px;
     padding: 0;
-    margin-top:15px;
+    margin-top: 15px;
     margin-bottom: 0px;
 }
 
-.hero{
+.hero {
     width: 100%;
 }
 
-.headerspace{
+.headerspace {
     margin-bottom: -10px;
 }
 
-h1{
+h1 {
     font-size: 3em;
-    color: #F4A39A;
-    font-family: 'Anton', sans-serif;
+    color: #f4a39a;
+    font-family: "Anton", sans-serif;
 }
 
-h2{
+h2 {
     font-size: 1em;
-    color: #F4A39A;
+    color: #f4a39a;
     line-height: 0em;
-    font-family: 'Playfair Display', serif;
-
+    font-family: "Playfair Display", serif;
 }
-h3{
-    font-family: 'Playfair Display', serif;
+
+h3 {
+    font-family: "Playfair Display", serif;
     font-size: 1.8em;
-    color: #F4A39A;
+    color: #f4a39a;
 }
 
-h4{
-    font-family: 'Playfair Display', serif;
+h4 {
+    font-family: "Playfair Display", serif;
     font-size: 1.5em;
-    color: #F4A39A;
+    color: #f4a39a;
 }
 
-p{
+p {
     font-size: 1em;
     color: #a9a9a9;
 }
 
-@media (max-width: 480px){
-    p{
-        font-size:.6em;
+@media (max-width: 480px) {
+    p {
+        font-size: 0.6em;
     }
 }
 
-@media (min-width: 481px) and (max-width: 992px){
-    p{
-        font-size:.8em;
+@media (min-width: 481px) and (max-width: 992px) {
+    p {
+        font-size: 0.8em;
     }
 }
